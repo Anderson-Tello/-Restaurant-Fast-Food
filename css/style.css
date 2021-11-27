@@ -40,6 +40,14 @@ img {
     padding: 2rem 0 2rem;
 }
 
+.submenu {
+    position: relative;
+}
+
+.submenu #carrito {
+    display: none;
+}
+
 .section-title,
 .section-subtitle {
     text-align: center;

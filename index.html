@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina responsive</title>
+    <title>Restaurant Fast Food</title>
+    <link rel="icon" href="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c1aa.png">
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -15,17 +16,33 @@
     <header class="l-header" id="header">
 
         <nav class="nav tk-container">
-            <a href="#" class="nav_logo">Rapida</a>
+            <a href="#" class="nav_logo"><img src="img/icono2.png"> Fast Food</a>
             <div class="nav_menu">
                 <ul class="nav_list">
                     <li class="nav_item"><a href="#home" class="nav_link active-link">Inicio</a></li>
                     <li class="nav_item"><a href="#about" class="nav_link">Nosotros</a></li>
                     <li class="nav_item"><a href="#services" class="nav_link">Servicios</a></li>
-                    <li class="nav_item"><a href="#menu" class="nav_link">Menu</a></li>
-                    <li class="nav_item"><a href="#contact" class="nav_link">Contacto</a></li>
+                    <li class="nav_item"><a href="#menu" class="nav_link">Menú</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">Contáctanos</a></li>
                 </ul>
             </div>
 
+            <div class="two colums u-pull-right ">
+
+                <ul>
+
+                    <li class="submenu">
+                        <img src="img/cart.png" alt="">
+                        <div id="carrito">
+                            <p class="vacio">carrito vacio</p>
+                            <a href="#" class="button u-full-width">vaciar las compras</a>
+
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
 
             <div class="nav_toggle">
                 <i class="bx bx-menu"></i>
@@ -38,8 +55,8 @@
         <section class="home" id="home">
             <div class="home_container tk_container tk-grid">
                 <div class="home_data">
-                    <h1 class="home_title">Comida rapida</h1>
-                    <h2 class="home_subtitle">Lorem ipsum dolor sit <br>amet</h2>
+                    <h1 class="home_title">Comida Rápida</h1>
+                    <h2 class="home_subtitle">De los ingredientes rigurosamente seleccionados a la rapidez y la cortesía en la atención, todo está planificado <br> para ofrecer una comida sabrosa y una experiencia única.</h2>
                     <a href="#menu" class="button">Ver Menu</a>
                 </div>
             </div>
@@ -49,8 +66,8 @@
             <div class="about_container tk-grid">
                 <div class="about_data">
                     <span class="section-subtitle about_initial">Nosotros</span>
-                    <h2 class="section-title about_initial">Lorem ipsum dolor sit<br> lorem</h2>
-                    <p class="about_description">Lorem ipsum dolor sit lorem ipsum dolor sit</p>
+                    <h2 class="section-title about_initial">Restaurant <br> Fast Food</h2>
+                    <p class="about_description">Somos una de las principales compañías de servicio rápido de la alimentación en el país.</p>
                     <a href="#" class="button">Explore</a>
                 </div>
                 <div class="about_data">
@@ -62,7 +79,7 @@
 
         <section class="menu section tk-container" id="menu">
             <span class="section-subtitle">Especial</span>
-            <h2 class="section-title">Menu de la semana</h2>
+            <h2 class="section-title">Menú de la semana</h2>
             <div class="menu_container tk-grid">
 
                 <div class="menu_content">
@@ -87,13 +104,6 @@
                     <a href="#" class="button menu_button"><i class="bx bx-cart-alt"></i></a>
                 </div>
                 <div class="menu_content">
-                    <img src="img/plate1.png" class="menu_img" alt="">
-                    <h3 class="menu_name">Lorem ipsum</h3>
-                    <span class="menu_detail">Lorem impsum</span>
-                    <span class="menu_preci">$10.00</span>
-                    <a href="#" class="button menu_button"><i class="bx bx-cart-alt"></i></a>
-                </div>
-                <div class="menu_content">
                     <img src="img/plate2.png" class="menu_img" alt="">
                     <h3 class="menu_name">Lorem ipsum</h3>
                     <span class="menu_detail">Lorem impsum</span>
@@ -102,6 +112,13 @@
                 </div>
                 <div class="menu_content">
                     <img src="img/plate3.png" class="menu_img" alt="">
+                    <h3 class="menu_name">Lorem ipsum</h3>
+                    <span class="menu_detail">Lorem impsum</span>
+                    <span class="menu_preci">$10.00</span>
+                    <a href="#" class="button menu_button"><i class="bx bx-cart-alt"></i></a>
+                </div>
+                <div class="menu_content">
+                    <img src="img/plate1.png" class="menu_img" alt="">
                     <h3 class="menu_name">Lorem ipsum</h3>
                     <span class="menu_detail">Lorem impsum</span>
                     <span class="menu_preci">$10.00</span>
@@ -117,18 +134,19 @@
             <div class="services_container tk-grid">
                 <div class="services_content">
                     <img src="img/Vector01.svg" class="services_img" alt="">
-                    <h3 class="services_title">Lorem ipsum</h3>
-                    <p class="services_description">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    <h3 class="services_title">Calidad</h3>
+                    <p class="services_description">Máxima calidad y seguridad en los productos que se verifica a lo largo de todas las fases de producción y selección de productos, desde los ingredientes hasta su preparación en el restaurante.</p>
                 </div>
                 <div class="services_content">
                     <img src="img/Vector02.svg" class="services_img" alt="">
-                    <h3 class="services_title">Lorem ipsum</h3>
-                    <p class="services_description">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    <h3 class="services_title">Servicio</h3>
+                    <p class="services_description">El cliente es siempre lo más importante y el objetivo es conseguir que su experiencia en los restaurantes sea excelente. La rapidez en el servicio, el trato amable y personal y la constante adaptación a los gustos del cliente son los
+                        medios para conseguirlo.</p>
                 </div>
                 <div class="services_content">
                     <img src="img/Vector03.svg" class="services_img" alt="">
-                    <h3 class="services_title">Lorem ipsum</h3>
-                    <p class="services_description">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    <h3 class="services_title">Valor</h3>
+                    <p class="services_description">Es el concepto equivalente de la mejor relación calidad-precio.</p>
                 </div>
             </div>
         </section>
@@ -153,9 +171,15 @@
         <section class="contact section tk-container" id="contact">
             <div class="contact_container tk-grid">
                 <div class="contact_data">
-                    <span class="section-subtitle contact_initial">Hablanos</span>
-                    <h2 class="section-title contact_initial">Contacto</h2>
-                    <p class="contact_description">Lorem ipsum dolor sit, adipisicing elit.</p>
+                    <span class="section-subtitle contact_initial">Contáctanos</span>
+                    <h2 class="section-title contact_initial">¿Quieres hablar con nosotros?</h2>
+                    <p class="contact_description">Para McDonald’s los comentarios de nuestros consumidores son muy valiosos y una manera de mejorar el servicio cada día. Puedes ponerte en contacto con nosotros, a través del número:
+                        <br>
+                        <br> 917 547 890
+                        <br>
+                        <br> Servicio de Atención al Cliente de Restaurant Fast Food lunes a viernes de 10.00 a 22:00 horas (sábados, domingos y feriados no hay servicio).
+                        <br>
+                        <br> O usa la dirección de correo electrónico atencionconsumidor@es.rff.com</p>
                 </div>
                 <div class="contact_button">
                     <a href="#" class="button">Contactanos</a>
@@ -204,7 +228,7 @@
                 </ul>
             </div>
         </div>
-        <p class="footer_copy">&#169; 2021 lorem lorem</p>
+        <p class="footer_copy">&#169;Fast Food - Todos Los Derechos Reservados - 2021</p>
 
     </footer>
 
